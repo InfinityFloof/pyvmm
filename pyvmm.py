@@ -1,4 +1,6 @@
 import os, sys
+print(os.path.abspath(os.path.dirname(__file__)))
+print(os.path.dirname(__file__))
 path = "/home/alex06/Documents/Python/pyvmm/"
 
 if os.path.exists(f"{path}data.txt") == False:

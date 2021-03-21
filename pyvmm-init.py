@@ -1,5 +1,5 @@
 import os
-path = "/home/alex06/Documents/Python/pyvmm/"
+path = f"{os.path.dirname(__file__)}/"
 os.system(f"mkdir {path}VMsh")
 print("                                                                    /$$           /$$   /$$    ")
 print("                                                                   |__/          |__/  | $$    ")
